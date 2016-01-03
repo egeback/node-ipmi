@@ -15,6 +15,6 @@ var Connect = require('node-ipmi');
 var server = new Connect("hostname/ip", "username", "password");
 server.getSensors(function(err, sensors) {
   console.log(sensors.getFans());
-  console.log(sensors.getFans());
+  console.log(sensors.getTemperatures());
 };
 ```

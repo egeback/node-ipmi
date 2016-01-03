@@ -1,6 +1,6 @@
 {
   "name": "node-ipmi",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "readmeFilename": "README.md",
   "description": "ipmitool commandline wrapper",
   "main": "lib/node-ipmi.js",
